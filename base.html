@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Social Distance Voilation </title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/booststrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/hs/bootstrap.min.js"></script>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+    <style>
+    .bg-dark{
+        back_ground-color: #42678c!important;
+    }
+    #result{
+        color: #0a1c4ed1;
+    }
+    </style>
+<body>
+    <nav class="navbar navbar-dark bg-warning">
+        <div class="container">
+            <a class="navbar-brand" href="#">Social Distance Voilation Detector </a>
+        </div>
+    </nav>
+    <div class="navbar navbar-dark bg-info">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 bd">
+                    <h3>Voiation Stream</h3>
+                    <p> COVID-19 spread is emotionally challenging many people all over the globe.
+                        Every individual is trying to adapt this challenge which is changing the
+                        day-to-day life in unpredictable manner.</p>
+                        <img src="{{ url_for('video_feed') }}" style="height:200px" class="img-rounded" alt="Gesture">
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                <img src= "https://www.burohappold.com/wp-content/uploads/2020/04/social-distancing_gettystock-1024x68">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<body>
+
+</html>
+        
+        
